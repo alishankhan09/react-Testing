@@ -1,0 +1,45 @@
+import React from "react";
+
+
+
+const Testing = {
+    Name: "Testing",
+    Roll_No: 7
+}
+
+// const Result = ""
+
+if (Testing.Name === "Testing" | Testing.Roll_No === 7) {
+    console.log("If Statement Invoked!")
+    alert("Debbug The app please.")
+} else {
+    console.log("Not Invoked.....")
+}
+
+const array = [1, 2, 4, 5]
+const array2 = [6, 7, 8, 9]
+
+const result = array.push(array2)
+for (let result = 0; result < array.length; result++) {
+    const element = array[result];
+    console.log(element)
+    
+}
+function FuncOne() {
+    return (
+        <>
+            <div>
+                <h1>{(2 === 3) ? "Its work " : "Not Working"}</h1>
+            </div>
+
+
+            <div>
+                <h1>Hello I'M React {Testing.Name} & My Roll_No is {Testing.Roll_No}</h1>
+            </div>
+            console.log(res)
+        </>
+    )
+}
+
+
+export default FuncOne
